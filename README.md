@@ -1,10 +1,10 @@
 🚖 Rapido Ride Data Analysis
-📌 Overview
 
 This project focuses on analyzing Rapido ride data to uncover key insights related to ride demand, revenue patterns, service usage, and cancellation behavior. 
 The analysis helps understand customer trends and operational efficiency.
 
 🛠️ Tools & Technologies
+
 Python (Pandas, NumPy)
 Matplotlib
 Jupyter Notebook
@@ -24,6 +24,7 @@ ride_charge, misc_charge, total_fare – Fare details
 payment_method – Payment type
 
 🔍 Data Cleaning & Preprocessing
+
 Handled missing values using median/mode strategies
 Converted time column into proper timedelta format
 Created new features:
@@ -33,6 +34,7 @@ route (source → destination)
 Removed duplicates and corrected data types
 
 📊 Exploratory Data Analysis (EDA)
+
 Key Analysis Performed:
 Average ride distance and duration
 Service-wise revenue analysis
@@ -42,6 +44,7 @@ Most frequent routes
 Cancellation rate by service and location
 
 📈 Key Insights
+
 📌 Majority of rides are successfully completed, indicating reliable service
 📌 Economy service generates the highest revenue and usage
 📌 Peak ride demand occurs during evening hours (commute time)
@@ -49,6 +52,7 @@ Cancellation rate by service and location
 📌 Most rides are short-distance urban trips
 
 📊 Visualizations
+
 Bar charts for service revenue and ride counts
 Pie chart for ride status distribution
 Line chart for demand trends by time
@@ -56,6 +60,7 @@ Histogram for ride duration
 Scatter plot for distance vs fare
 
 📁 Project Files
+
 rapido_analysis.ipynb → Full EDA in Jupyter Notebook
 cleaned_data.csv → Processed dataset
 
